@@ -39,12 +39,3 @@ if fname in os.listdir('.'):
     func(args[0])
 else:
     print("File not found")
-
-
-#### OLD CODE ###
-#print(getattr(dir(module)[0], 'isPalindrome'))
-#print(f"functions = {functions}")
-#print([f for f in inspect.getmembers(classes[0], predicate=inspect.isfunction)]) #if callable(f)])
-#print(classes[0].stream
-#function = getattr(module, classes[0], )
-#print(function)
