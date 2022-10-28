@@ -1,5 +1,3 @@
-import sys
-
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         s_reduced = '' 
