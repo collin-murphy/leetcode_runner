@@ -13,7 +13,7 @@ def main():
         print('Use command "./run.py --usage" for help.')
         exit()
     elif sys.argv[1] == "--usage":
-        print('Usage: ./run.py <filename.py> <args>\nStore solutions in the "{directory}/" directory')
+        print('Usage: ./run.py <filename.py> <args>\nStore solutions in the "{directory}/" directory11\ncat solutions/125-valid_palindrome.py | xclip -sel clip')
         exit()
     elif argcount == 2:
         print('Not enough arguments')
